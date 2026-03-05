@@ -1,4 +1,4 @@
-# Cheat Sheet 
+# Cheat Sheet ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ## Verificacion de instalación y Estados Iniciales 
 
@@ -46,6 +46,8 @@
 
 ---
 
+![image](https://avatars.githubusercontent.com/u/5429470?s=200&v=4)
+[Documentacion Oficial De Instalacion](https://docs.docker.com/desktop/setup/install/linux/debian/)
 ### Tip Extra
 > Estos comandos nos permiten interactuar directamente con el contenedor
 ~~~
