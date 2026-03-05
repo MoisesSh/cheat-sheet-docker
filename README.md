@@ -47,6 +47,7 @@
 ---
 
 ![image](https://avatars.githubusercontent.com/u/5429470?s=200&v=4)
+<br>
 [Documentacion Oficial De Instalacion](https://docs.docker.com/desktop/setup/install/linux/debian/)
 ### Tip Extra
 > Estos comandos nos permiten interactuar directamente con el contenedor
