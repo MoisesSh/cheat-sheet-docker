@@ -29,7 +29,8 @@
 ## Comandos de administracion de imagenes y/o Contendores
 | Comando | Utilidad |
 |----------|----------|
-|`docker rm <container_id>`|Eliminamos un contenedor con su ID|
+|`docker rm <container_id>`|Elimina un contenedor usando su ID|
+|`docker rmi <image_id>`|Elimina una imagen específica usando su ID o nombre|
 |`docker system prune`|Borra basura técnica pero mantiene tu data y tus imágenes con nombre|
 |`docker system prune -a`|Borra también las imágenes que no se están usando (aunque tengan nombre)|
 |`docker system prune --volumes`|Borra los volúmenes que no estén en uso|
@@ -44,3 +45,10 @@
 |`docker-compose logs -f`|Ver logs en tiempo real|
 
 ---
+
+### Tip Extra
+> Estos comandos nos permiten interactuar directamente con el contenedor
+~~~
+docker exec -it <nombre_servicio> /bin/bash 
+docker exec -it <nombre_servicio> sh 
+~~~
