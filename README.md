@@ -1,12 +1,12 @@
 # Cheat Sheet ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-## Verificacion de instalación y Estados Iniciales 
+## Verificación de instalación y Estados Iniciales 
 
 | Comando | Utilidad |
 |----------|----------|
-| `docker ---version` | Verificar instalacion y version de docker |
-| `docker info` | Informacion del sistema |
-|`docker images`| Listar imagenes locales |
+| `docker ---version` | Verificar instalación y version de docker |
+| `docker info` | Información del sistema |
+|`docker images`| Listar imágenes locales |
 |`docker ps`|Listar contenedores activos|
 |`docker ps -a`|Listar contenedores (incluye detenidos)|
  
@@ -18,15 +18,15 @@
 |`docker ps`|Listar contenedores activos|
 |`docker ps -a`|Listar contenedores (incluye detenidos)|
 | `docker compose build` | Construir la imagen |
-| `docker compose build <nombre_servicio>` | Construir imagen especifica |
+| `docker compose build <nombre_servicio>` | Construir imagen específica |
 | `docker compose up` | Corre la  en primer plano  |
-|`docker compose up -d`| Corre la aplicación en segundo plano (silencio) |
+|`docker compose up -d`| Corre en segundo plano (silencio) |
 |`docker compose up -d --build`| Construye y levanta los contenedores (silencio) |
 |`docker compose down <nombre_servicio>`|Detenemos el servicio especifico|
 |`docker compose down`|Detenemos todos los servicios|
 
 ---
-## Comandos de administracion de imagenes y/o Contendores
+## Comandos de Administración de imágenes y/o Contendores
 | Comando | Utilidad |
 |----------|----------|
 |`docker rm <container_id>`|Elimina un contenedor usando su ID|
@@ -41,8 +41,8 @@
 ## Comandos para obtener la información de los servicios
 | Comando | Utilidad |
 |----------|----------|
-|`docker-compose logs <nombre_servicio> `|Ver logs de servicio especifico|
-|`docker-compose logs -f`|Ver logs en tiempo real|
+|`docker compose logs <nombre_servicio> `|Ver logs de servicio especifico|
+|`docker compose logs -f`|Ver logs en tiempo real|
 
 ---
 
