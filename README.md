@@ -1,6 +1,6 @@
-# Cheat Sheet 🎯
+# Cheat Sheet 
 
-## Verificacion de instalación y Estados Iniciales
+## Verificacion de instalación y Estados Iniciales 
 
 | Comando | Utilidad |
 |----------|----------|
@@ -12,7 +12,7 @@
  
 ---
 
-## Comandos de ciclo de vida de la aplicación
+## Comandos de ciclo de vida de la aplicación 
 | Comando | Utilidad |
 |----------|----------|
 |`docker ps`|Listar contenedores activos|
